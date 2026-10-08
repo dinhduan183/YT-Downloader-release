@@ -37,8 +37,8 @@ App cần **ffmpeg** để chuyển sang MP3 và ghép video. Chỉ cần cài m
    brew install ffmpeg
    ```
 2. Giải nén `YouTube-Downloader-macOS.zip`, kéo **YouTube Downloader.app** vào thư mục **Applications**.
-3. **Lần mở đầu tiên:** chuột phải vào app → **Open** → **Open**.
-   App chưa được Apple ký nên macOS sẽ báo "không xác định được nhà phát triển". Chỉ cần làm bước này một lần.
+3. **Lần mở đầu tiên:** mở app, macOS sẽ chặn và báo không xác minh được nhà phát triển (vì app chưa được Apple ký). Bấm **Done**, rồi vào **System Settings → Privacy & Security**, kéo xuống bấm **Open Anyway** và xác nhận. Chỉ cần làm bước này một lần.
+   Lần quét đầu tiên sau khi cài có thể chậm vài giây do macOS kiểm tra app, các lần sau sẽ nhanh.
 
 > Chưa hỗ trợ Mac chip Intel.
 
@@ -65,6 +65,10 @@ Với link video nằm trong playlist (có `&list=...`): tick **"Tải cả play
 Khi có bản mới, app hiện thông báo ở đầu cửa sổ. Bấm **Tải về** để mở trang release, tải file mới rồi thay app cũ.
 
 Nếu tải liên tục bị lỗi, hãy cập nhật lên bản mới nhất: YouTube thay đổi thường xuyên và mỗi bản mới đi kèm công cụ tải mới hơn.
+
+## Xử lý lỗi
+
+**Bài tải bị lỗi "Sign in to confirm you're not a bot":** YouTube đang tạm chặn mạng của bạn vì tải quá nhiều trong thời gian ngắn. Hãy chờ vài tiếng rồi bấm **Tải lại bài lỗi**, và giảm **Tải cùng lúc** xuống 1–2.
 
 ## Lưu ý
 
